@@ -7,7 +7,7 @@
       "uuidString" : "2D98CC5F-45F9-46F2-8AEF-2F553619B0BE"
     }
   ],
-  "creatorBuild" : "34434",
+  "creatorBuild" : "34335",
   "files" : {
     "\/assets\/daniel-leone-g30P1zcOzXo-unsplash.jpg" : {
       "ft" : 16384,
@@ -15,6 +15,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/daniel-leone-g30P1zcOzXo-unsplash.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/Mountain.jpg" : {
+      "ft" : 16384,
+      "iS" : 113601,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/Mountain.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -71,8 +84,8 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/hero.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 2
     },
     "\/dev\/global\/footer.kit" : {
       "cB" : 0,
@@ -121,7 +134,7 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/deploy\/js\/scripts-min.js",
-      "oF" : 2,
+      "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
@@ -155,6 +168,18 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/base\/_typography.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/base\/_typography-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/dev\/scss\/base\/_typography.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -163,9 +188,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/scss\/base\/_typography.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -195,6 +220,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/components\/_forms.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/components\/_hero.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/components\/_hero.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -305,6 +345,12 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/node_modules" : {
+      "ft" : 65536,
+      "oA" : 2,
+      "oAP" : "\/node_modules",
+      "oF" : 0
+    },
     "\/package-lock.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -330,7 +376,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 669227926.75338697,
-    "displayValue" : "Motion-F22-AM",
+    "displayValue" : "Miraglia_MG",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-ucla",
     "iconImageWasSetByUser" : 0
@@ -683,6 +729,10 @@
         "active" : 0,
         "optionString" : "'1tbs', {'allowSingleLine': true}"
       },
+      "callback-return" : {
+        "active" : 0,
+        "optionString" : "['callback', 'cb', 'next']"
+      },
       "camelcase" : {
         "active" : 0,
         "optionString" : "{'properties': 'always', 'ignoreDestructuring': false, 'ignoreImports': false}"
@@ -774,10 +824,6 @@
         "active" : 0,
         "optionString" : "'expression'"
       },
-      "function-call-argument-newline" : {
-        "active" : 0,
-        "optionString" : "'always'"
-      },
       "function-paren-newline" : {
         "active" : 0,
         "optionString" : "'multiline'"
@@ -790,6 +836,9 @@
         "active" : 0,
         "optionString" : "{'allowImplicit': false}"
       },
+      "global-require" : {
+        "active" : 0
+      },
       "grouped-accessor-pairs" : {
         "active" : 0,
         "optionString" : "'anyOrder'"
@@ -797,7 +846,11 @@
       "guard-for-in" : {
         "active" : 0
       },
-      "id-denylist" : {
+      "handle-callback-err" : {
+        "active" : 0,
+        "optionString" : "'err'"
+      },
+      "id-blacklist" : {
         "active" : 0,
         "optionString" : "'data', 'err', 'e', 'cb', 'callback'"
       },
@@ -921,6 +974,9 @@
         "active" : 0,
         "optionString" : "{'allow': ['~'], 'int32Hint': true}"
       },
+      "no-buffer-constructor" : {
+        "active" : 0
+      },
       "no-caller" : {
         "active" : 0
       },
@@ -947,9 +1003,6 @@
       },
       "no-const-assign" : {
         "active" : 1
-      },
-      "no-constant-binary-expression" : {
-        "active" : 0
       },
       "no-constant-condition" : {
         "active" : 1,
@@ -983,9 +1036,6 @@
         "active" : 1
       },
       "no-dupe-keys" : {
-        "active" : 1
-      },
-      "no-duplicate-case" : {
         "active" : 1
       },
       "no-duplicate-imports" : {
@@ -1029,7 +1079,7 @@
       "no-extra-boolean-cast" : {
         "active" : 1
       },
-      "no-extra-label" : {
+      "no-extra-labels" : {
         "active" : 0
       },
       "no-extra-parens" : {
@@ -1040,8 +1090,7 @@
         "active" : 1
       },
       "no-fallthrough" : {
-        "active" : 1,
-        "optionString" : "{'allowEmptyCase': false}"
+        "active" : 1
       },
       "no-floating-decimal" : {
         "active" : 0
@@ -1118,6 +1167,10 @@
         "active" : 0,
         "optionString" : "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
       },
+      "no-mixed-requires" : {
+        "active" : 0,
+        "optionString" : "{'grouping': false, 'allowCall': false }"
+      },
       "no-mixed-spaces-and-tabs" : {
         "active" : 0,
         "optionString" : ""
@@ -1152,6 +1205,9 @@
       "no-new-object" : {
         "active" : 0
       },
+      "no-new-require" : {
+        "active" : 0
+      },
       "no-new-symbol" : {
         "active" : 1
       },
@@ -1174,9 +1230,18 @@
         "active" : 0,
         "optionString" : "{'props': false}"
       },
+      "no-path-concat" : {
+        "active" : 0
+      },
       "no-plusplus" : {
         "active" : 0,
         "optionString" : "{'allowForLoopAfterthoughts': false}"
+      },
+      "no-process-env" : {
+        "active" : 0
+      },
+      "no-process-exit" : {
+        "active" : 0
       },
       "no-promise-executor-return" : {
         "active" : 0
@@ -1203,6 +1268,9 @@
         "optionString" : "'event', 'fdescribe'"
       },
       "no-restricted-imports" : {
+        "active" : 0
+      },
+      "no-restricted-modules" : {
         "active" : 0,
         "optionString" : ""
       },
@@ -1247,6 +1315,10 @@
       },
       "no-sparse-arrays" : {
         "active" : 1
+      },
+      "no-sync" : {
+        "active" : 0,
+        "optionString" : "{'allowAtRootLevel': false}"
       },
       "no-tabs" : {
         "active" : 0,
@@ -1479,6 +1551,10 @@
       "require-await" : {
         "active" : 0
       },
+      "require-jsdoc" : {
+        "active" : 0,
+        "optionString" : "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+      },
       "require-unicode-regexp" : {
         "active" : 0
       },
@@ -1563,6 +1639,10 @@
       "use-isnan" : {
         "active" : 1,
         "optionString" : "{'enforceForSwitchCase': true, 'enforceForIndexOf': false}"
+      },
+      "valid-jsdoc" : {
+        "active" : 0,
+        "optionString" : "{'prefer': {'return': 'returns'}, 'requireReturn': true, 'requireReturnDescription': true, 'requireReturnType': true, 'requireParamDescription': true}"
       },
       "valid-typeof" : {
         "active" : 1,
@@ -1832,7 +1912,6 @@
       "createDeclarationFile" : 0,
       "jsxMode" : 0,
       "minifierStyle" : 0,
-      "moduleDetectionType" : 0,
       "moduleResolutionType" : 0,
       "moduleType" : 2,
       "removeComments" : 0,
@@ -2065,10 +2144,6 @@
         "active" : 0,
         "flagValue" : -1
       },
-      "keep_numbers" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
       "keep_quoted_props" : {
         "active" : 0,
         "flagValue" : -1
@@ -2092,10 +2167,6 @@
       "passes" : {
         "active" : 1,
         "flagValue" : 1
-      },
-      "preserve_annotations" : {
-        "active" : 0,
-        "flagValue" : -1
       },
       "properties" : {
         "active" : 1,
@@ -2199,10 +2270,6 @@
       },
       "webkit" : {
         "active" : 0,
-        "flagValue" : -1
-      },
-      "wrap_func_args" : {
-        "active" : 1,
         "flagValue" : -1
       },
       "wrap_iife" : {
