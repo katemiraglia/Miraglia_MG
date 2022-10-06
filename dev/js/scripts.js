@@ -3,14 +3,11 @@ import {
 } from "gsap";
 
 
-gsap.from("#first-line", {
+gsap.to("h1", {
     duration: 1,
-    x: 200,
-    alpha: 0
+    x: 500,
 });
-gsap.from("#second-line", {
+gsap.to("#second-line", {
     duration: 1,
-    x: -100,
-    alpha: 0,
-    delay: 0.5
-});
+    x: 500,
+})
