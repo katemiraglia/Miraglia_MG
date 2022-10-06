@@ -1,3 +1,16 @@
 /* =============
     Typography
 ============= */
+body {
+    font-family: 'Sora',
+        sans-serif;
+    color: var(--white);
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    text-align: center;
+    margin: 40px;
+    font-size: rem-calc(20);
+
+}

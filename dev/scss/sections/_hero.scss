@@ -1,0 +1,31 @@
+#hero {
+  background-image: url("../img/carsketch.jpg");
+  height: 80vh;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+#hero-text {
+  height: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  text-align: center;
+}
+
+#hero-text h1 {
+  color: var(--white);
+  margin: 40px;
+  font-size: rem-calc(40);
+}
+
+button {
+  border: none;
+  background-color: var(--grey);
+  color: var(--white);
+  padding: 30px 40px;
+  border-radius: 8px;
+  margin-top: 24px;
+  font-size: rem-calc(20);
+  cursor: pointer;
+}
