@@ -5,7 +5,7 @@ import {
 
 gsap.from("#first-line", {
     duration: 1,
-    x: -200,
+    x: 200,
     alpha: 0
 });
 gsap.from("#second-line", {
